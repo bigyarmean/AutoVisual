@@ -159,7 +159,7 @@ class AutoReconReportGenerator:
 
 if __name__ == "__main__":
     results_directory = os.getcwd()  # Use the current working directory
-    output_file = "autorecon_report.html"
+    output_file = "autovisual_report.html"
     
     generator = AutoReconReportGenerator(results_directory)
     generator.run(output_file)
